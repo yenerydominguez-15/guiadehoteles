@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hello, world!</title>
+
+  </head>
+  <body>
+
+    
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Hoteles</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Hoteles <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Terminos y condiciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="precios.html">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <h1>Hoteles</h1>
+    </div>
+
+
+    <div class="container">
+      <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="largo">
+            <img class="d-block w-100 " src="./img/hoteles1.jpg" alt="First slide">
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="largo">
+            <img class="d-block w-100" src="./img/hoteles2.jpg" alt="Second slide">
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="largo">
+            <img class="d-block w-100" src="./img/hoteles3.jpg" alt="Third slide">
+          </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Hoteles</li>
+        </ol>
+      </nav>
+        <div class="d-flex flex-wrap flex-row">
+            <div class="col-sm-4">
+              <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="true" aria-controls="multiCollapse1">¿Cómo Funciona?</a>
+                <div class="collapse multi-collapse" id="multiCollapse1">
+
+                <p>Busca los hoteles de acuerdo a tu preferncia.</p>
+                </div>
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapse2" role="button" aria-expanded="true" aria-controls="multiCollapse2">¿Dónde puedo reservar?</a>
+                <div class="collapse multi-collapse" id="multiCollapse2">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem labore molestias magnam consequatur ab tempora omnis maiores nam praesentium doloremque cum cumque dolores accusamus placeat, eos magni quasi iusto voluptate.</p>
+                </div>
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapse3" role="button" aria-expanded="true" aria-controls="multiCollapse3">¿Cómo pago?</a>
+                <div class="collapse multi-collapse" id="multiCollapse3">
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, optio qui placeat error ullam vitae voluptatum harum. Possimus minus, optio alias sapiente nemo assumenda reiciendis. Magni autem dolorum aut iure.</p>
+                  </div>
+              </p>
+            </div>
+        </div>
+        <div class="row">
+          
+          <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
+            <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 rel="tooltip" title="Tooltip">Título</h5>
+
+              <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
+              <p class="card-text">Descripción sobre el lugar/hotel.</p>
+              <a href="#" class="btn btn-success">Reservar</a>
+            </div>
+         </div>
+         <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
+          <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 rel="tooltip" title="Tooltip">Título</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
+            <p class="card-text">Descripción sobre el lugar/hotel.</p>
+            <a href="#" class="btn btn-success">Reservar</a>
+          </div>
+       </div>
+       <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
+        <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 rel="tooltip" title="Tooltip">Título</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
+          <p class="card-text">Descripción sobre el lugar/hotel.</p>
+          <a href="#" class="btn btn-success">Reservar</a>
+        </div>
+     </div>
+     <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
+      <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 rel="tooltip" title="Tooltip">Título</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
+        <p class="card-text">Descripción sobre el lugar/hotel.</p>
+        <a href="#" class="btn btn-success">Reservar</a>
+      </div>
+   </div>
+   <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
+    <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 rel="tooltip" title="Tooltip">Título</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
+      <p class="card-text">Descripción sobre el lugar/hotel.</p>
+      <a href="#" class="btn btn-success">Reservar</a>
+    </div>
+ </div>
+ <div class="card-hotel d-flex flex-column justify-content-between" style="width: 18rem;">
+  <img class="card-img-top" src="img/clima_costa_01.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 rel="tooltip" title="Tooltip">Título</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Subtitulo</h6>
+    <p class="card-text">Descripción sobre el lugar/hotel.</p>
+    <a href="#" class="btn btn-success">Reservar</a>
+  </div>
+</div>   
+<button type="button" id="modalButton" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="margin: auto; display: block;">Registrate para recibir todas nuestras novedades.</button>   
+    </div>
+  </div>
+</div>
+
+
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-body">
+        <form action="">
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <label for="name">Nombre</label>
+              <input type="text" class="form-control" id="name" placeholder="ingrese su nombre">
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="lastname">Apellido</label>
+              <input type="text" class="form-control" id="name" placeholder="Ingrese su apellido">
+            </div>
+        </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingrese su email" >
+          </div>
+          <input type="subit" value="Enviar" class="btn btn-success">
+        </form>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+
+<footer class="page-footer font-small blue pt-4">
+
+  <div class="container-fluid text-center text-md-left">
+
+    <div class="row">
+
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <h5 class="text-uppercase">Oficina Central</h5>
+        <p>Tucuman 834, CABA, Argentina</p>
+        <p>+541111111111</p>
+        <p>contacto@guiahoteles.com</p>
+
+      </div>
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <h5 class="text-uppercase">Redes</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="www.facebook.com">Facebook</a>
+          </li>
+          <li>
+            <a href="www.twitter.com">Twitter</a>
+          </li>
+          <li>
+            <a href="www.instagram.com">Instagram</a>
+          </li>
+          <li>
+            <a href="www.youtube.com">Youtube</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#us">Nosotros</a>
+          </li>
+          <li>
+            <a href="#prices">Precio</a>
+          </li>
+          <li>
+            <a href="#terms">Términos y Condiciones</a>
+          </li>
+          <li>
+            <a href="#contact">Contacto</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>  
+
+
+ 
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper-utils.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

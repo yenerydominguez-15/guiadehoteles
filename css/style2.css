@@ -1,0 +1,38 @@
+.jumbotron {
+  background-image: url(../img/background.jpg);
+  color: white;
+  margin-top: 50px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+footer {
+  margin-top: 5px;
+  background-color: #d11919;
+  color: white;
+}
+footer a {
+  color: black;
+}
+footer a:hover {
+  color: #1aed28;
+  text-decoration: none;
+}
+.card-hotel {
+  display: flex;
+  width: 200px;
+  margin: 5px;
+}
+.button-prices {
+  color: #fffa19;
+  display: block;
+  width: 100%;
+}
+.button-prices:hover {
+  text-decoration: none;
+  color: #1aed28;
+}
+.largo {
+  display: block;
+  max-height: 400px;
+  object-fit: contain;
+}
